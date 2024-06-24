@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styles/styles.css" rel="stylesheet" type="text/css">
     <title>University Certificate</title>
 </head>
 <body>
-    <div>
-        <h1>University Certification</h1>
-    </div>
-    <nav>
+    <nav class= "navigation">
         <ul>
-            <li><a href = #section1>Student info</a></li>
-            <li><a href = #section2>Course taken previous year</a></li>
+            <li><a href = #section1>Student</a></li>
+            <li><a href = #section2>Course taken last year</a></li>
             <li><a href = #section3>Hobbies</a></li>
-            <li><a href= #section4>Schedule of last semester</a></li>
+            <li><a href= #section4>Schedule of previous semester</a></li>
         </ul>
     </nav>
+    <div id="title">
+        <h1>University Certification</h1>
+    </div>
     <div>
         <section id="section1">
-            <h2>This Certification is presented to</h2>
-                <img src="Assets/test.jpg" alt="Image of Dusanthan">
+            <h2>This Certificate is Proudly Presented to</h2>
+                <img class ="ballon1" src="Assets/ballons.png" alt="ballons" />
+                <img src="Assets/Photo.jpg" alt="Image of Dusanthan" placeholder="image of Dusanthan"/>
+                <img class = "ballon2" src="Assets/ballons.png" alt="ballons" />
                     <h3> Dusanthan Sivarajah</h3>
-                        <p>upone completing the course along side its required material for the spring semester of 2024</p>
+                        <p>Upon completing the course along side its required material for the spring semester of 2024</p>
         </section>
         <section id="section2">
             <h2>Course taken last year</h2>
@@ -85,11 +88,20 @@
         </section>
         <section id="section3">
             <h2>Hobbies</h2>
-            <p>The hobbies that are often practiced and enjoyed by Dusanthan includes solving puzzles, progamming, long walks, camping, stargazing, listening to music, cooking, and watching anime</p>
+                <p>The hobbies that are often practiced and enjoyed by Dusanthan includes:</p> 
+                    <ul class="list-hobbies">
+                        <li>Puzzles</li>
+                        <li>Programming</li>
+                        <li>Long Walks</li>
+                        <li>Camping</li>
+                        <li>Stargazing</li>
+                        <li>Listening to Music</li>
+                        <li>Cooking</li>
+                    </ul> 
 
         </section>
         <section id="section4">
-            <h2>Schedule of last semester</h2>
+            <h2>Schedule of previous semester</h2>
             <table>
                 <tr>
                     <th>Course Code</th>
