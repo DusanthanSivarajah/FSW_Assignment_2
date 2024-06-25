@@ -78,3 +78,8 @@ table, th, td {
 .list-hobbies{
     list-style-type: none;
 }
+
+.Photo{
+    border: 5px solid #746b2e;
+    border-radius: 25px;
+}
